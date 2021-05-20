@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Hukum Unpad</string>
+
+    <string-array name="data_dosen">
+        <item>Prof. Dr. H. Eman Suparman, S.H., M.H.</item>
+        <item>Yesmil Anwar, S.H., M.Si.</item>
+        <item>Dr. Atje, S.H., M.H.</item>
+        <item>Adrian E. Rompis, S.H., BB.A.. M.H.</item>
+        <item>H. Zul Afdi Ardian, S.H</item>
+        <item>Mulyani Djak karia, S.H., M.H.</item>
+        <item>Dr. Idris, S.H., M.A.</item>
+        <item>Dr. Lies Sulistiani, S.H., M.H.</item>
+        <item>Sri Dewi Anggraeni.S.H., CN.</item>
+        <item>Dicky Risman, S.H., M.H.</item>
+        <item>Deden Suryo Raharjo. S.H., M.H.</item>
+        <item>Kilkoda Agus Saleh, S.H., M.H.</item>
+        <item>Hj. Fatmi Utarie Nasution, S.H., M.H.</item>
+        <item>Dr. Sudaryat, S.H., M.H.</item>
+        <item>H. Agus Takariawan, S.H., M.H.</item>
+        <item>Dr. Djanuardi, S.H., M.H.</item>
+        <item>Rohaenah Padmandinata. S.H.,M.H.</item>
+        <item>Aam Suryamah, S.H., M.H.</item>
+        <item>Artaji, S.H., M.H.</item>
+        <item>Linda Rachmainy, S.H., M.H.</item>
+        <item>Abi Maruf Radjab, S.H.,M.H.</item>
+        <item>Tiche Nurawati. S.H.,M.H.</item>
+        <item>Sarinah, S.H., M.Si.</item>
+        <item>Mustofa Haffas, S.H., M.Kom.</item>
+        <item>Hj. Eidy Sandra, S.H., M.H</item>
+        <item>Enni Surjati, S.H.,M.H.</item>
+        <item>Jjud Tadjudin, S.H.M.H.</item>
+        <item>Hazar Kusmayanti, S.H., M.H.</item>
+        <item>Inna Junaenah, S.H.,M.H.</item>
+        <item>Yusuf Saepul Zamil, S.H.,M.H.</item>
+        <item>Dewi Sriyani Besman, S.H.,M.H</item>
+        <item>Rachminawati, S.H., M.A.</item>
+        <item>Dr. Helza Nova Lita, S.H..M.H.</item>
+        <item>Agus Pratiwi, S.H. LL.M.</item>
+        <item>Nadia Astriani, S.H.. M.Si.</item>
+        <item>Ema Rahmawati, S.H.,M.H.</item>
+        <item>Agus Suwandono, S.H., LL.M.</item>
+        <item>Nun Harrieti, S.H., M.H.</item>
+        <item>Davina Oktovana, S.H..M.H.</item>
+        <item>Dr. Irawati Handayani, S.H.. LL.M.</item>
+        <item>Chloryne Trie Isana Dewi, S.H., LL.M.</item>
+        <item>Nella Sumika Putri, S.H., M.H.</item>
+        <item>Wanodyo Sulistyani, S.H., M.H., LL.M.</item>
+        <item>Prita Amalia, S.H., M.H.</item>
+        <item>Laina Rafianti, S.H., M.H.</item>
+        <item>Erika Magdalena Chandra, S.H., M.H.</item>
+        <item>Rai Mantili, S.H., M.H.</item>
+        <item>Purnama Trinamansyah, S.H.. M.H.</item>
+        <item>Bilal Dewansyah, S.H., M.H.</item>
+        <item>Imam Mulyana, S.H., M.H.</item>
+        <item>Deviana Yuanitasari, S.H., M.H.</item>
+        <item>Rahayu Prasetianingsih, SH., M.H.</item>
+        <item>Dr. Holyness N.S, S.H., M.H.</item>
+        <item>Tri Handayani, S.H., M.H.</item>
+        <item>Santi Hapsari Dewi A., S.H., M.H.</item>
+        <item>Pupung Faisal, S.H., M.H.</item>
+        <item>Diajeng Wulan Christianti. S.H., LL.M.</item>
+        <item>Siti Noor Malia Putri, S.H., LL.M.</item>
+        <item>Lailani, S.H., M.H.</item>
+        <item>Ajie Ramdan, S.H., M.H.</item>
+        <item>Tasya Safiranita, S.H., M.H.</item>
+        <item>Amelia Cahyadini, S.H., M.H.</item>
+        <item>Sherly Ayuna Putri, S.H., M.H.</item>
+        <item>Helitha Novianty Muchtar, S.H., M.H.</item>
+        <item>R. Adi Nurzaman, S.H.,M.H.</item>
+        <item>Mei Susanto, S.H., M.H.</item>
+        <item>Garry Gumelar Pratama, S.H.,M.H.</item>
+        <item>Budi Arta Atmaja, S.H.,M.H.</item>
+        <item>Rully Herdita Ramadhani, S.H.,M.H.</item>
+        <item>Yulinda Adharani, S.H.,M.H.</item>
+    </string-array>
+
+    <string-array name="dosen_prodi">
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+        <item>Program Studi : S1 Ilmu Hukum</item>
+    </string-array>
+</resources>
