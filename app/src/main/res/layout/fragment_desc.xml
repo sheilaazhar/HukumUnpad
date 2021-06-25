@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="141dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:srcCompat="@drawable/kaprodi" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="         Kurikulum adalah seperangkat rencana dan pengaturan mengenai isi maupun bahan kajian dan pelajaran serta cara penyampaian dan penilaiannya yang digunakan sebagai petunjuk penyelenggaraan kegiatan belajar mengajar di Fakultas Hukum Universitas Padjadjaran, yang harus ditempuh oleh mahasiswa dalam rangka pencapaian gelar sarjana hukum. \n\n
+        Universitas Padjadjaran menyediakan kurikulum dengan jumlah SKS sekurang-kurangnya 144 dan sebanyak-banyaknya 160, yang dapat ditempuh dalam waktu 8 (delapan) semester. Kurikulum memungkinkan untuk ditempuh kurang dari delapan semester bagi mahasiswa yang memiliki kemampuan akademik lebih baik dengan memanfaatkan semester biasa dan semester alih tahun. Jenis matakuliah di dalam kurikulum Fakultas Hukum Universitas Padjadjaran terdiri atas Kurikulum Inti dan Kurikulum Institusional yang meliput kelompok: Matakuliah Pengembangan Kepribadian (MPK), Matakuliah Keilmuan dan Keterampilan (MKK), Matakuliah Keahlian Berkarya (MKB), Matakuliah Perilaku Berkarya (MPB), dan Matakuliah Berkehidupan Bermasyarakat (MBB)\n"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="70dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="PROGRAM STUDI S1 ILMU HUKUM"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="107dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="KURIKULUM BERBASIS KOMPETENSI"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="301dp"
+                android:layout_height="202dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="38dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Kurikulum Berbasis Kompetensi (KBK/Competence-Based curriculum) itu memperhatikan perkembangan global/regional, pengguna lulusan (statkeholders), kebutuhan masyarakat, hard and soft  skill, dan metode pengajarannya adalah Student–Centered Learning  (SCL). SCL adalah metode proses belajar-mengajar dengan peran sentral mahasiswa yang aktif, berinisiatif, bertanggung jawab,  sehingga mahasiswa mempunyai kompetensi materi ajar/kuliah dalam pengajaran/perkuliahan tersebut. Model pembelajaran SCL paling tidak mencakup 3 (tiga) aspek, yaitu : materi/isi ilmu pengetahuan dan teknologi (iptek), sikap mental dan perilaku/etika, nilai-nilai luhur/mulia yang tertanam dalam jiwa mahasiswa"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="269dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="94dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="94dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Gelar Lulusan: Sarjana Hukum (S.H.) Akreditasi: A "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView10" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="329dp"
+                android:layout_height="219dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="36dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18"
+                app:srcCompat="@drawable/akreditasi" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="98dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="99dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="BEBAN STUDI DAN LAMA STUDI"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="367dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fakultas"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="0dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/matkulfakultas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="MATAKULIAH WAJIB FAKULTAS"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/sksfak"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/matkulfakultas"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="118 SKS"
+                            android:textColor="#7D121A"
+                            android:textSize="30sp" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/khusus"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardCornerRadius="0dp"
+                    app:cardElevation="5dp"
+                    app:cardMaxElevation="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="MATAKULIAH WAJIB PROGRAM KEKHUSUSAN"
+                            android:textAlignment="center"
+                            android:textColor="#000000"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/textView2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif-condensed-medium"
+                            android:text="10 SKS"
+                            android:textAlignment="center"
+                            android:textColor="#7D121A"
+                            android:textSize="30sp" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>

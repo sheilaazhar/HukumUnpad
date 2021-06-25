@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/deskripsi"
+        android:title="Deskripsi"
+        android:icon="@drawable/ic_description"/>
+    <item
+        android:id="@+id/visi"
+        android:title="Visi Misi"
+        android:icon="@drawable/ic_visi"/>
+    <item
+        android:id="@+id/tujuann"
+        android:title="Tujuan"
+        android:icon="@drawable/ic_tujuan"/>
+</menu>

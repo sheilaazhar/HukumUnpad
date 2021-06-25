@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VisiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="90dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="VISI MISI PRODI S1 ILMU HUKUM"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/visi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="167dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="167dp"
+                android:src="@drawable/visi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="         Menjadi Program Studi S1 Ilmu Hukum yang menyelenggaran pendidikan hukum  yang berfungsi sebagai sarana pembaharuan masyarakat dan memiliki keunggulan serta reputasi tinggi di tingkat nasional dan internasional tahun 2026.\n"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="121dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Visi Program Studi Sarjana (S1) lmu Hukum :"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/visi" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="120dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Misi Program Studi Sarjana (S1) Ilmu Hukum : "
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="1. Menyelenggarakan dan mengembangkan sistem pendidikan ilmu hukum berbasis riset secara efektif dan efisien melalui penerapan sistem student centered learning yang dapat merespon kebutuhan masyarakat.\n\n 2. Meningkatkan kuantitas dan kualitas penelitian hukum yang berguna bagi pendidikan hukum pada khususnya, masyarakat dan pembangunan hukum nasional pada umumnya.\n\n  3. Meningkatkan kuantitas dan kualitas pengabdian kepada masyarakat guna meningkatkan kesadaran hukum masyarakat, dan membantu memecahkan masalah hukum di masyarakat , serta menunjang pembangunan nasional.\n\n 4. Meningkatkan kualitas tenaga pendidik dan tenaga kependidikan guna menghasilkan lulusan yang berkualitas yang berguna bagi bangsa dan negara.\n\n 5. Menjalin hubungan kerjasama strategis dengan masyarakat, pemerintah, kelompok bisnis dan industri, institusi pendidikan, serta perguruan tinggi lain baik didalam negeri maupun luar negeri secara berkelanjutan dengan menerapkan prinsip kesetaraan, kemitraan, dan saling percaya.\n"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

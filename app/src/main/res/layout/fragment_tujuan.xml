@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TujuanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="88dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="TUJUAN PRODI S1 ILMU HUKUM"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.031"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/tujuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="168dp"
+                android:src="@drawable/tujuan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView9" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="60dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Program Sarjana Fakultas Hukum Unpad bertujuan untuk:"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tujuan" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="a. Menghasilkan lulusan Program Studi Sarjana (S1) Ilmu Hukum  Fakultas Hukum Universitas Padjadjaran yang berdaya guna dan  berdaya saing dalam pasar kerja nasional maupun internasional,  dengan mampu:\n 1. Memahami Hukum sebagai Sarana Pembangunan;\n 2. Menganalisis masalah-masalah hukum dalam masyarakat;\n 3. Menerapkan hukum yang berkeadilan;\n 4. Mengembangkan keahlian dan keterampilan dalam bidang \n hukum;\n 5. Mengembangkan dan meningkatkan profesionalisme hukum dengan menjunjung tinggi etika profesi hukum.\n\n b. Meningkatnya kuantitas dan kualitas penelitian yang berorientasi pada perkembangan hukum nasional dan internasional serta berguna bagi pendidikan Program Studi S1 Ilmu Hukum dalam rangka pembangunan hukum nasional.\n\n c. Meningkatnya kuantitas dan kualitas pengabdian kepada masyarakat untuk menunjang pembelajaran Program Studi S1 Ilmu Hukum dan meningkatkan kesadaran hukum masyarakat.\n\n d. Terselenggaranya proses pembelajaran yang efektif dan efisien untuk menghasilkan lulusan yang berdaya guna dan berdaya saing dalam pasar kerja nasional maupun internasional.\n\n e. Meningkatnya jumlah keterlibatan mahasiswa pada kegiatan penelitian dan pengabdian masyarakat yang menunjang pengembangan keilmuan dalam berkontribusi bagi pemerintah, industri, masyarakat, dan pemangku kepentingan lainnya.\n\n f. Terwujudnya kerjasama dengan berbagai pihak di tingkat nasional dan internasional untuk memperkuat pelaksanaan Tridharma Perguruan Tinggi.\n"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
