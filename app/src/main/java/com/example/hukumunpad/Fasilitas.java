@@ -46,93 +46,89 @@ public class Fasilitas extends AppCompatActivity {
 
         adapter = new AdapterCard(this, modelList);
 
-        String image1 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/elearning-banda-42-420x420.jpg";
-        String image2 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/imam-bonjol-2-420x420.jpg";
-        String image3 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/imam-bonjol-420x420.jpg";
-        String image4 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/perpus-3-420x420.jpg";
-        String image5 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/perpus-4-420x420.jpg";
-        String image6 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/perpus-5-420x420.jpg";
-        String image7 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/perpus-6-420x420.jpg";
-        String image8 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/perpus-7-2-420x420.jpg";
-        String image9 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/perpus-8-420x420.jpg";
-        String image10 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Picture-012-420x420.jpg";
-        String image11 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Picture-013-420x420.jpg";
-        String image12 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Picture-028-420x420.jpg";
-        String image13 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Picture-029-420x420.jpg";
-        String image14 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Picture-040-420x420.jpg";
-        String image15 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Picture-041-420x420.jpg";
-        String image16 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/Syukuran-039-420x420.jpg";
-        String image17 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/syukuran-1102-420x420.jpg";
-        String image18 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/syukuran-113-420x420.jpg";
-        String image19 = "https://fh.unpad.ac.id/wp-content/uploads/2014/09/syukuran-114-420x420.jpg";
-        String image20 = "https://lh3.googleusercontent.com/proxy/xqrQA0A7mx9DwEglOkCfPgJHkEdktogFDHPRbk6GXrLvbihykBACAUR5gmRZ4UkOWnF0vxTb-Dk_HBSWh4OtqcyZumf8dN1lSVjfglQc0nvUH8TGdvVC";
-        String image21 = "https://lh3.googleusercontent.com/2iT0GdZb0_qMjeKIXIj-lIbk4C6V5nY0eE11PwGkOI5J8YFXHfd_fGd6nLjO-GKE6CBk0w=s156";
-        String image22 = "https://lh3.googleusercontent.com/proxy/MDWLMC5UXE_8Za7sYqz2FSLbKFOeRmB3VUZUqobp6mwCJyyEjgCD01INjtsowoujFZrTOAPotvG15b5ULgJmz8IbxtIz4b0NH4M1gYwyKJf3cihSjjFFKfTic2ySynw7UeYgksyLKJPuPVt_gRvgI_nPdlVNEZwA54U";
+        String image1 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/02.jpg";
+        String image2 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/01.jpg";
+        String image3 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/03.jpg";
+        String image4 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/04.jpg";
+        String image5 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/07.jpg";
+        String image6 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/05.jpg";
+        String image7 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/bale-rumawat-watermark.jpg";
+        String image8 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/09.jpg";
+        String image9 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/16-1.jpg";
+        String image10 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/08-1.jpg";
+        String image11 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/15-1.jpg";
+        String image12 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/20-1.jpg";
+        String image13 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/18-1.jpg";
+        String image14 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/22-1.jpg";
+        String image15 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/rsgm-watermark.jpg";
+        String image16 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/21-1.jpg";
+        String image17 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/asrama-padjadjaran-2-watermark.jpg";
+        String image18 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/asrama-padjadjaran-3-watermark.jpg";
+        String image19 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/Asrama-Padjadjaran-4.png";
+        String image20 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/Odong-odong-Unpad.png";
+        String image21 = "https://fh.unpad.ac.id/wp-content/uploads/2021/11/17-1.jpg";
 
-        model = new MyModel("Elearning Banda 42",image1);
+        model = new MyModel("Perpustakaan",image1);
         modelList.add(model);
 
-        model = new MyModel("Imam Bonjol",image2);
+        model = new MyModel("Perpustakaan",image2);
         modelList.add(model);
 
-        model = new MyModel("Imam Bonjol", image3);
+        model = new MyModel("Perpustakaan", image3);
         modelList.add(model);
 
-        model = new MyModel("Perpustakaan", image4);
+        model = new MyModel("Moot Court Room", image4);
         modelList.add(model);
 
-        model = new MyModel("Perpustakaan", image5);
+        model = new MyModel("Moot Court Room", image5);
         modelList.add(model);
 
-        model = new MyModel("Perpustakaan", image6);
+        model = new MyModel("Auditorium", image6);
         modelList.add(model);
 
-        model = new MyModel("Perpustakaan", image7);
+        model = new MyModel("Auditorium", image7);
         modelList.add(model);
 
-        model = new MyModel("Perpustakaan", image8);
+        model = new MyModel("Auditorium", image8);
         modelList.add(model);
 
-        model = new MyModel("Perpustakaan", image9);
+        model = new MyModel("Auditorium", image9);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image10);
+        model = new MyModel("Masjid", image10);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image11);
+        model = new MyModel("Masjid Unpad", image11);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image12);
+        model = new MyModel("Sarana Olahraga", image12);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image13);
+        model = new MyModel("Sarana Olahraga", image13);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image14);
+        model = new MyModel("Layanan Kesehatan", image14);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image15);
+        model = new MyModel("Layanan Kesehatan", image15);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image16);
+        model = new MyModel("Asrama Padjadjaran 1", image16);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image17);
+        model = new MyModel("Asrama Padjadjaran 2", image17);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image18);
+        model = new MyModel("Asrama Padjadjaran 3", image18);
         modelList.add(model);
 
-        model = new MyModel("Hukum Unpad", image19);
+        model = new MyModel("Asrama Padjadjaran 4", image19);
         modelList.add(model);
 
-        model = new MyModel("Ruang Auditorium Tommy Koh-Mochtar Kusumatmadja", image20);
+        model = new MyModel("Transportasi Kampus", image20);
         modelList.add(model);
 
-        model = new MyModel("Ruang Moot Court Adjie Sena Kolopaking (ASAK)", image21);
-        modelList.add(model);
-
-        model = new MyModel("Student Center", image22);
+        model = new MyModel("Transportasi Kampus", image21);
         modelList.add(model);
 
         RecyclerView recyclerView = findViewById(R.id.list_fasilitas);

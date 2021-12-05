@@ -21,11 +21,11 @@
 
             <ImageView
                 android:id="@+id/imageView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="140dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="141dp"
+                android:layout_marginEnd="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView3"
@@ -167,7 +167,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-condensed-medium"
-                            android:text="MATAKULIAH WAJIB FAKULTAS"
+                            android:text="TOTAL SKS"
                             android:textColor="#000000"
                             android:textSize="12sp" />
 
@@ -177,11 +177,11 @@
                             android:layout_height="wrap_content"
                             android:layout_below="@id/matkulfakultas"
                             android:layout_centerHorizontal="true"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-condensed-medium"
-                            android:text="118 SKS"
+                            android:text="153 SKS"
                             android:textColor="#7D121A"
-                            android:textSize="30sp" />
+                            android:textSize="24sp" />
 
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
@@ -208,7 +208,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-condensed-medium"
-                            android:text="MATAKULIAH WAJIB PROGRAM KEKHUSUSAN"
+                            android:text="JANGKA WAKTU PENDIDIKAN"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="12sp" />
@@ -221,10 +221,10 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="10dp"
                             android:fontFamily="sans-serif-condensed-medium"
-                            android:text="10 SKS"
+                            android:text="7 SEMESTER"
                             android:textAlignment="center"
                             android:textColor="#7D121A"
-                            android:textSize="30sp" />
+                            android:textSize="24sp" />
                     </RelativeLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
