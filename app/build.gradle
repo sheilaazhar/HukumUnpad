@@ -3,6 +3,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\Sheila Azhar Almufarida\\Magang\\Hukum\\HukumUnpad.jks')
+            storePassword 'HukumUnpad'
+            keyAlias 'key0'
+            keyPassword 'HukumUnpad'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
@@ -20,6 +28,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
